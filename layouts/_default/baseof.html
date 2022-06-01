@@ -6,8 +6,8 @@
     </head>
 
     <body>
+    <div class="background-top"></div>
         <div class="page">
-
             <header class="page__header">
                 {{- partial "header.html" . -}}
             </header>
@@ -15,7 +15,6 @@
             <section class="page__body">
                 {{- block "main" . }}{{- end }}
             </section>
-
             <section class="page__aside">
                 <div class="aside__about">
                     {{- partial "about.html" . -}}
